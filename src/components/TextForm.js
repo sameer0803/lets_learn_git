@@ -13,7 +13,7 @@ export default function TextForm(props) {
     }
 
     const handlelowerClick=()=>{
-        console.log("Upper case was clicked"+text);
+        // console.log("Upper case was clicked"+text);
         setText(text.toLowerCase());
         props.showAlert('Converted to Lower Case !!','success');
     }
